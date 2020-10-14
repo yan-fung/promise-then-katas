@@ -14,8 +14,11 @@ need to use the second parameter, requestBody.
 
 An example of using the fetch function:
 
-fetch("food")
-fetch("joke", "question")
+1 parameter
+fetch("food").then(<insert your callback function>)
+
+2 parameters
+fetch("joke", "question").then(<insert your callback function>)
 
 */
 
